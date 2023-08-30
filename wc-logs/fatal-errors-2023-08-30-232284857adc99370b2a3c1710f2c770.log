@@ -1,0 +1,147 @@
+2023-08-30T09:18:13+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(72): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'post', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(202): mdsm_node_create(458, Object(WP_Post))
+#3 [internal function]: mdsm_page_update(458, Object(WP_Post), Object(WP_Post))
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_page_updat...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(459, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4720): do_action('post_updated', 458, Object(WP_Post), Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4853): wp_insert_post(Array, true, false)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(880): wp_update_post(Array, true, false)
+#10 [internal function]: WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): call_user_func(Array, Object(WP_REST_Request))
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/wp/v2/pages/45...')
+#15 [internal function]: rest_api_loaded(Object(WP))
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('rest_api_loaded', Array)
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#19 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#20 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#21 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/functions.php(1335): WP->main('')
+#22 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(16): wp()
+#23 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#24 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-08-30T09:19:02+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(72): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'post', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(202): mdsm_node_create(460, Object(WP_Post))
+#3 [internal function]: mdsm_page_update(460, Object(WP_Post), Object(WP_Post))
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_page_updat...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(461, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4720): do_action('post_updated', 460, Object(WP_Post), Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4853): wp_insert_post(Array, true, false)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(880): wp_update_post(Array, true, false)
+#10 [internal function]: WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): call_user_func(Array, Object(WP_REST_Request))
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/wp/v2/pages/46...')
+#15 [internal function]: rest_api_loaded(Object(WP))
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('rest_api_loaded', Array)
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#19 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#20 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#21 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/functions.php(1335): WP->main('')
+#22 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(16): wp()
+#23 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#24 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-08-30T09:21:26+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(72): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'post', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(202): mdsm_node_create(462, Object(WP_Post))
+#3 [internal function]: mdsm_page_update(462, Object(WP_Post), Object(WP_Post))
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_page_updat...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(463, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4720): do_action('post_updated', 462, Object(WP_Post), Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4853): wp_insert_post(Array, true, false)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(880): wp_update_post(Array, true, false)
+#10 [internal function]: WP_REST_Posts_Controller->update_item(Object(WP_REST_Request))
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(1188): call_user_func(Array, Object(WP_REST_Request))
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(1035): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/pages/(?...', Array, NULL)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api/class-wp-rest-server.php(447): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/rest-api.php(418): WP_REST_Server->serve_request('/wp/v2/pages/46...')
+#15 [internal function]: rest_api_loaded(Object(WP))
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('rest_api_loaded', Array)
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#19 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp.php(398): do_action_ref_array('parse_request', Array)
+#20 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp.php(779): WP->parse_request('')
+#21 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/functions.php(1335): WP->main('')
+#22 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(16): wp()
+#23 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#24 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-08-30T11:04:22+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + int in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php:24
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(120): mdsm_node_recolor(Object(WP_Post), 'ad9f78', Array)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(209): mdsm_node_update(8, Object(WP_Post), Object(WP_Post))
+#2 [internal function]: mdsm_page_update(8, Object(WP_Post), Object(WP_Post))
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_page_updat...', Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4720): do_action('post_updated', 8, Object(WP_Post), Object(WP_Post))
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/includes/post.php(445): wp_update_post(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/includes/ajax-actions.php(2138): edit_post()
+#10 [internal function]: wp_ajax_inline_save('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_ajax_inline_...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_inline-...')
+#15 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php на строке 24
+
+2023-08-30T11:04:52+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + int in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php:24
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(120): mdsm_node_recolor(Object(WP_Post), 'ad9f78', Array)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(209): mdsm_node_update(10, Object(WP_Post), Object(WP_Post))
+#2 [internal function]: mdsm_page_update(10, Object(WP_Post), Object(WP_Post))
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_page_updat...', Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4720): do_action('post_updated', 10, Object(WP_Post), Object(WP_Post))
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/includes/post.php(445): wp_update_post(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/includes/ajax-actions.php(2138): edit_post()
+#10 [internal function]: wp_ajax_inline_save('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_ajax_inline_...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_inline-...')
+#15 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php на строке 24
+
+2023-08-30T11:05:35+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + int in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php:24
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(120): mdsm_node_recolor(Object(WP_Post), '5fb48b', Array)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(209): mdsm_node_update(8, Object(WP_Post), Object(WP_Post))
+#2 [internal function]: mdsm_page_update(8, Object(WP_Post), Object(WP_Post))
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_page_updat...', Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4720): do_action('post_updated', 8, Object(WP_Post), Object(WP_Post))
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(4853): wp_insert_post(Array, false, true)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/includes/post.php(445): wp_update_post(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/includes/ajax-actions.php(2138): edit_post()
+#10 [internal function]: wp_ajax_inline_save('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_ajax_inline_...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_inline-...')
+#15 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php на строке 24
+

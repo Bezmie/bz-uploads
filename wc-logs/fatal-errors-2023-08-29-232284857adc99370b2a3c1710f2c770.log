@@ -1,0 +1,204 @@
+2023-08-29T11:01:18+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T11:01:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T11:02:09+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T11:04:23+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T11:04:30+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T11:06:22+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T11:41:16+00:00 CRITICAL Uncaught Error: Call to undefined function wp_derequeue_style() in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php:39
+Stack trace:
+#0 [internal function]: kazhol_remove_block_styles_woo('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('kazhol_remove_b...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2409): do_action('enqueue_block_a...')
+#5 [internal function]: wp_common_block_scripts_and_styles('')
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_common_block...', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#10 [internal function]: wp_enqueue_scripts('')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#13 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#15 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#16 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#17 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#18 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#19 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/bz-common/bz-common.php на строке 39
+
+2023-08-29T18:49:01+00:00 CRITICAL Uncaught Error: Undefined constant "value" in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/wp-visual-sitemap/wpvs.php:187
+Stack trace:
+#0 [internal function]: wpvs_plugin_options('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wpvs_plugin_opt...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/admin.php(259): do_action('settings_page_w...')
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/options-general.php(10): require_once('/home/c/clinica...')
+#6 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/wp-visual-sitemap/wpvs.php на строке 187
+
+2023-08-29T18:49:23+00:00 CRITICAL Uncaught Error: Undefined constant "value" in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/wp-visual-sitemap/wpvs.php:187
+Stack trace:
+#0 [internal function]: wpvs_plugin_options('')
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wpvs_plugin_opt...', Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/admin.php(259): do_action('settings_page_w...')
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/options-general.php(10): require_once('/home/c/clinica...')
+#6 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/wp-visual-sitemap/wpvs.php на строке 187
+
+2023-08-29T18:57:05+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/get_agile.php(122): MDSM_DFX_API_OBJECT->execRequest('doodle/agile_bo...', 'get', 'nodes=1')
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/pages/tasks/tasks.php(11): require_once('/home/c/clinica...')
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/index.php(268): include('/home/c/clinica...')
+#4 [internal function]: mdsm_include_task_page('')
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('mdsm_include_ta...', Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/admin.php(259): do_action('mind-doodle_pag...')
+#9 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+

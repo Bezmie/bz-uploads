@@ -1,0 +1,54 @@
+2023-08-28T11:08:42+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_bz_custom_style" not found or invalid function name in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('enqueue_bz_cust...', Array)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 [internal function]: wp_enqueue_scripts('')
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#13 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php на строке 310
+
+2023-08-28T11:08:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_bz_custom_style" not found or invalid function name in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('enqueue_bz_cust...', Array)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 [internal function]: wp_enqueue_scripts('')
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#13 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php на строке 310
+
+2023-08-28T11:09:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_bz_custom_style" not found or invalid function name in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('enqueue_bz_cust...', Array)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 [internal function]: wp_enqueue_scripts('')
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(310): call_user_func_array('wp_enqueue_scri...', Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/general-template.php(3053): do_action('wp_head')
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-canvas.php(17): wp_head()
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/clinica...')
+#11 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/clinica...')
+#12 /home/c/clinicadev/clinicadev.beget.tech/public_html/index.php(17): require('/home/c/clinica...')
+#13 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php на строке 310
+
