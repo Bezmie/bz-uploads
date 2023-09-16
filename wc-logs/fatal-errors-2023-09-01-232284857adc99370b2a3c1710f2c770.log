@@ -1,0 +1,80 @@
+2023-09-01T13:36:31+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(171): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'delete', 'options=%7B%22w...')
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(228): mdsm_node_delete(504)
+#3 [internal function]: mdsm_page_delete(504)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(312): call_user_func_array('mdsm_page_delet...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(3434): do_action('before_delete_p...', 504, Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/revision.php(483): wp_delete_post(504)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/edit-form-blocks.php(225): wp_delete_post_revision(Object(WP_Post))
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/post.php(187): require('/home/c/clinica...')
+#11 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-09-01T14:10:54+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(171): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'delete', 'options=%7B%22w...')
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(228): mdsm_node_delete(504)
+#3 [internal function]: mdsm_page_delete(504)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(312): call_user_func_array('mdsm_page_delet...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(3434): do_action('before_delete_p...', 504, Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/revision.php(483): wp_delete_post(504)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/edit-form-blocks.php(225): wp_delete_post_revision(Object(WP_Post))
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/post.php(187): require('/home/c/clinica...')
+#11 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-09-01T14:12:44+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(171): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'delete', 'options=%7B%22w...')
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(228): mdsm_node_delete(504)
+#3 [internal function]: mdsm_page_delete(504)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(312): call_user_func_array('mdsm_page_delet...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(3434): do_action('before_delete_p...', 504, Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/revision.php(483): wp_delete_post(504)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/edit-form-blocks.php(225): wp_delete_post_revision(Object(WP_Post))
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/post.php(187): require('/home/c/clinica...')
+#11 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-09-01T14:13:22+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(171): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'delete', 'options=%7B%22w...')
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(228): mdsm_node_delete(504)
+#3 [internal function]: mdsm_page_delete(504)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(312): call_user_func_array('mdsm_page_delet...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(3434): do_action('before_delete_p...', 504, Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/revision.php(483): wp_delete_post(504)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/edit-form-blocks.php(225): wp_delete_post_revision(Object(WP_Post))
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/post.php(187): require('/home/c/clinica...')
+#11 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
+2023-09-01T14:14:24+00:00 CRITICAL Uncaught TypeError: curl_setopt(): The CURLOPT_HTTPHEADER option must have an array value in /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php:131
+Stack trace:
+#0 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php(131): curl_setopt(Object(CurlHandle), 10023, NULL)
+#1 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(171): MDSM_DFX_API_OBJECT->execRequest('doodle/node', 'delete', 'options=%7B%22w...')
+#2 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/md/wp_to_md.php(228): mdsm_node_delete(504)
+#3 [internal function]: mdsm_page_delete(504)
+#4 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(312): call_user_func_array('mdsm_page_delet...', Array)
+#5 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/post.php(3434): do_action('before_delete_p...', 504, Object(WP_Post))
+#8 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-includes/revision.php(483): wp_delete_post(504)
+#9 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/edit-form-blocks.php(225): wp_delete_post_revision(Object(WP_Post))
+#10 /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-admin/post.php(187): require('/home/c/clinica...')
+#11 {main}
+  thrown в /home/c/clinicadev/clinicadev.beget.tech/public_html/wp-content/plugins/mind-doodle-sitemap/lib/dfx_oauth.php на строке 131
+
